@@ -147,6 +147,74 @@ There are 2 popular deposit types: No Deposit and Non Refund. It can be seen tha
 
 Based on the data, even though the non-refundable room cancellation rate over 99%, the hotel still profits from these bookings because according to the hotel's policy, customers are still required to pay a fee for cancellations.
 
+5. Market Segment
+
+![image](https://github.com/user-attachments/assets/e2c64acd-4c39-4783-993a-f07c8438b948)
+
+![image](https://github.com/user-attachments/assets/e2472650-da50-4e0f-b73f-bcac1f727436)
+
+The analysis of booking cancellations by market segment reveals important insights into the behavior of customers in different market segments. By understanding which market segments have the highest cancellation rates, hotels can tailor their strategies to minimize cancellations and optimize revenue.
+
+The bar charts shows the sources from which guests are making hotel reservations, including Direct, Groups, Corporate, Online Travel Agencies, and Offline Travel Agents. Approximately 44% of clients make reservations through online travel agencies, around 22% for Offline Travel Agents, 19% come through group bookings, 10% of clients choose to book hotels directly by visiting them in person and making reservations, only 4% of Corporate. Most of them have the total bookings check-out more than canceled booking. However, only “Group” different. The number of canceld booking are 16K while check-out booking are 10K bookings.
+
+From the data, most of booking cancelation of all market segment focus on City Hotel. Based on that, hotels can identify that Online/ Offline TA/TO and Group market segment have a higher propensity to cancel bookings. This information can help hotels implement targeted marketing campaigns or policies to reduce cancellations in these segments. By focusing on the market segments with the highest cancellation rates, hotels can potentially increase customer satisfaction, improve booking retention, and enhance overall profitability.
+
+6. Lead time
+
+According to SiteMinder’s Hotel Booking Trends, lead time is the time between a guest making their booking and arriving at your hotel for their stay. The booking lead time is the window between purchase and experience in which many things can happen, including a cancellation, extra expenditure, modifications, or requests.
+
+![image](https://github.com/user-attachments/assets/44101ecb-637b-43d3-9437-0f1d7f5160f3)
+
+![image](https://github.com/user-attachments/assets/9338ca46-c0c6-43fa-9c32-b9509e4c0f40)
+
+![image](https://github.com/user-attachments/assets/d03deb6c-e84d-498a-b5d0-e8378aae3582)
+
+![image](https://github.com/user-attachments/assets/2bb33b85-fd3a-4bc7-a4f5-b7181f124f85)
+
+In general, bookings made a few days before the arrival date are rarely canceled, whereas bookings made over one month in advance are canceled very often. For the cancellation, the lead time booking at Resort Hotel is longer than City Hotel. 
+
+For the City Hotel, customers tend to cancel with bookings were booked between 31 to 87 days before the arrival date, with the peak being around 1 month before. On the other hand, for Resort Hotel, the lead time for bookings is quite long, approximately close to a year. Longer lead times for Resort Hotel can lead to more uncertainties or changes in customer plans, resulting in higher cancellation rates compared to city hotels where plans might be more concrete closer to the arrival date.
+
+7.	Correlation
+
+![image](https://github.com/user-attachments/assets/3329c78b-82fd-4ac7-bc4e-4c7262b2adab)
+
+Because the number of columns in the dataset is quite large (32 columns), the author has removed factors that do not have much impact on the cancellation of hotel bookings by customers.
+
+Based on the correlation, there are some factors that have a higher impact on room cancellations compared to the remaining factors such as: lead time, deposit type, market segment, etc. With lead time, if the confirmed date is further away from the arrival date, the cancellation rate is higher (0.43). 
+
+There are 2 types of deposits. When guests book with a non-refundable policy, the capable of room cancellation is higher. Conversely, the cancellation rate decreases when the number of guests choosing “No deposit” increases.
+
+For market segment, although “Online TA” and “Offline TA/TO” are 2 market segment have the highest number of cancellation booking, it’s not affect too much to guest’s decision. On the other hand, the “Group” market segment has more affect to the number of cancellation booking than others. The “Direct” segment is one of the good market segment. The higher from “Direct” segment increase, the lower the number of cancellations.
+
+Beside that, with the guests who had cancellation booking before, they tend to continue in the future. That’s thing will increase the total booking cancellation of hotels In addition, if the guests send more request to the hotels, the capable of cancel booking will lower than the guests who not or less requests
+
+8.	Regression
+
+![image](https://github.com/user-attachments/assets/7cb4019b-4824-4722-9791-8cf24c0964c5)
+
+From data of OLS Regresstion, the R-squared is 0.333 which mean just explain around 33% the changes in the independent variable ( lead time, market segment, deposit type,etc) with the dependent variable (is canceled). Due to the relatively low R-squared value, this predictive model is not accurate enough.
+
+## Conclusion and Recommendation
+
+After analyzing the data, we can draw conclusions and suggest solutions to reduce the number of room cancellations as follows:
+
+•	The City hotel experiences a higher ratio of cancellations compared to the Resort hotel. Therefore, hotels should consider offering competitive room price discounts on weekends and holidays.
+
+•	Increasing prices are associated with a higher rate of cancellations. To mitigate reservation cancellations, hotels could refine their pricing strategies by offering reduced rates for specific locations and providing discounts to customers.
+
+•	Stay competitive with your pricing while maintaining the quality of the services. Offer promotions, discounts, and loyalty programs to attract repeat customers.
+
+•	From May to August, hotels can launch marketing campaigns with attractive offers to boost their revenue, especially since cancellations tend to peak during this period.
+
+•	Utilize a reliable online booking platform that allows guests to make reservations easily. Provide accurate and high quality photos of hotel to reduce cancellations.
+
+•	Encourage satisfied guests to leave positive reviews on platforms like TripAdvisor, Agoda, or Google Reviews. Respond to reviews, whether positive or negative, to show the commitment to customer satisfaction.
+
+•	Encourage guests book a room directly with hotels. This way helps hotels can contact directly with guests and don’t need to pay commission for Travel Agent.
+
+•	Effective Cancellation Management: Recognizing the emerging trend of post-cancellation payments, viewed as an opportunity to turn challenges into advantages from a business standpoint. By employing astute strategies aimed at reducing cancellations, including transparent terms and conditions, considerate reminders, and potentially introducing incentives for guests committed to their reservations, we can create a win-win scenario. This approach not only enhances the guest experience but also guarantees a consistent revenue flow for the business.
+
 
 
 
