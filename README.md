@@ -10,3 +10,8 @@ This project aims to use the hotel dataset to identify the factors effect to gue
 With this data, it’s possible to support the hotels have a model to predict if a guest will actually come. This can help hotels to plan things like personel and food requirements. Moreover, they can figure out how to reduce the number of booking cancellation and increase their revenue.
 
 ## Dataset
+
+Source: Public dataset from Kaggle (Hotel Revenue:
+https://www.kaggle.com/datasets/govindkrishnadas/hotel-revenue)
+Description: 
+This dataset contains 141,314 observations for a City Hotel and a Resort Hotel. Each observation represents a hotel booking between the 1st of July 2018 and 31st of August 2020, including booking that effectively arrived and booking that were canceled.
